@@ -115,6 +115,7 @@ Feedback Summary Screen
        |
        v
 Toast + Notification
+```
 
 ## 7. Project Folder and File Structure
 
@@ -139,14 +140,16 @@ StudentVoice/
 │
 ├── gradle/
 ├── screenshots/
-│   ├── ![Student Voice Output](./screenshots/01_student_voice.png)
-│   └── ![Feedback Summary Output](./screenshots/02_feedback_summary.png)
+│   ├── 01_student_voice.png
+│   └── 02_feedback_summary.png
 │
 ├── .gitignore
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── README.md
-## 10. Output
+```
+
+## 8. Output
 
 ### Output 1 – Student Voice Screen
 
@@ -159,3 +162,37 @@ The application displays the Student Voice feedback form with Student Name, Cour
 After submitting the feedback, the application displays the Feedback Summary containing Student Name, Course Name, Course Rating, Recommendation and Feedback Submitted status.
 
 ![Feedback Summary Output](./screenshots/02_feedback_summary.png)
+
+## 9. Test Cases
+
+### Test Case 1 – Valid Feedback
+
+- Student Name: Ram
+- Course Name: MBA
+- Rating: Excellent
+- Recommend: Yes
+- Agreement: Yes
+- Expected Result: Feedback Summary is displayed successfully.
+
+### Test Case 2 – Different Rating
+
+- Student Name: Ali
+- Course Name: BCA
+- Rating: Good
+- Recommend: Yes
+- Agreement: Yes
+- Expected Result: Feedback Summary displays the entered details.
+
+### Test Case 3 – USN and Name
+
+- USN: 1JB23CS001
+- Student Name: Atiullah
+- Course Name: MAD
+- Rating: Excellent
+- Recommend: Yes
+- Agreement: Yes
+- Expected Result: Feedback is submitted and the summary screen is displayed.
+
+## 10. Result
+
+The Student Voice Android application was successfully developed and demonstrated. It collects student course feedback using Android UI components, transfers data using Intent, displays a Toast message and notification, and demonstrates Activity Lifecycle methods.
