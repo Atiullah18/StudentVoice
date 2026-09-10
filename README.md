@@ -185,8 +185,8 @@ After submitting the feedback, the application displays the Feedback Summary con
 
 ### Test Case 3 – USN and Name
 
-- USN: 1JB23CS001
-- Student Name: Atiullah
+- USN: 25MCAR0108
+- Student Name: Md Atiullah Ansari
 - Course Name: MAD
 - Rating: Excellent
 - Recommend: Yes
