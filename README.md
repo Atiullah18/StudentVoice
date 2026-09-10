@@ -115,3 +115,34 @@ Feedback Summary Screen
        |
        v
 Toast + Notification
+
+## 7. Project Folder and File Structure
+
+```text
+StudentVoice/
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/example/studentvoice/
+│           │       ├── MainActivity.kt
+│           │       └── SummaryActivity.kt
+│           │
+│           ├── res/
+│           │   ├── layout/
+│           │   │   ├── activity_main.xml
+│           │   │   └── activity_summary.xml
+│           │   └── values/
+│           │
+│           └── AndroidManifest.xml
+│
+├── gradle/
+├── screenshots/
+│   ├── ![Student Voice Output](./screenshots/01_student_voice.png)
+│   └── ![Feedback Summary Output](./screenshots/02_feedback_summary.png)
+│
+├── .gitignore
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
