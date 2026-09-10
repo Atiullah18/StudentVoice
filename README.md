@@ -146,3 +146,16 @@ StudentVoice/
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── README.md
+## 10. Output
+
+### Output 1 – Student Voice Screen
+
+The application displays the Student Voice feedback form with Student Name, Course Name, Course Rating, Recommendation Switch, Agreement CheckBox and Submit Feedback button.
+
+![Student Voice Output](./screenshots/01_student_voice.png)
+
+### Output 2 – Feedback Summary Screen
+
+After submitting the feedback, the application displays the Feedback Summary containing Student Name, Course Name, Course Rating, Recommendation and Feedback Submitted status.
+
+![Feedback Summary Output](./screenshots/02_feedback_summary.png)
